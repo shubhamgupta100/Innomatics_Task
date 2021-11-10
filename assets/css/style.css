@@ -1,0 +1,50 @@
+button:hover {
+  background-color: rgb(21, 21, 202) !important;
+  transition: 0.7s ease-in-out !important;
+  color: white !important;
+}
+.main_container {
+  /* width: 90%; */
+  height: 90vh;
+
+  background-image: url("https://mdbootstrap.com/img/Photos/new-templates/search-box/img4.jpg");
+  background-size: auto;
+}
+.child_container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 50%;
+}
+.child_container input {
+  color: white;
+}
+.main {
+  width: 40%;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.post_warpper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  top: 50px;
+}
+.left {
+  width: 50%;
+}
+.left img {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  /* left: 200px; */
+  border-radius: 15px;
+}
+.right {
+  width: 50%;
+}
